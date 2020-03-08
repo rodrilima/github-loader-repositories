@@ -1,4 +1,4 @@
-# Github React Project
+# Github Loader Repositories
 
 ## Screenshots
 
@@ -29,14 +29,10 @@ To run this project, you'll only need to have the npm installed.
 Cloning the Repository
 
 ```
-$ git clone https://github.com/rodrilima/github-react.git
+$ git clone https://github.com/rodrilima/github-loader-repositories.git
 
-$ cd github-react
-```
+$ cd github-loader-repositories
 
-**In all the followings instructions, I'll be using the yarn, but you can also use npm.**
-
-```
 $ npm install
 ```
 
@@ -57,4 +53,4 @@ $ npm start
 
 ## License
 
-This project is licensed under the [GNU General Public License v3.0](https://github.com/rodrilima/github-react/blob/master/LICENSE)
+This project is licensed under the [GNU General Public License v3.0](https://github.com/rodrilima/github-loader-repositories/blob/master/LICENSE)
