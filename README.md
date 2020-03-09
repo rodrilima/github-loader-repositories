@@ -2,7 +2,9 @@
 
 ## Screenshots
 
-Coming Soon
+![main](https://raw.githubusercontent.com/rodrilima/github-loader-repositories/master/images/main.png)
+
+![repository](https://raw.githubusercontent.com/rodrilima/github-loader-repositories/master/images/repository.png)
 
 ## About this Project
 
@@ -16,7 +18,10 @@ Connect with me at [Linkedin](https://www.linkedin.com/in/rodrilima/)
 
 ## Functionalities
 
-Coming Soon
+- Create repositories list
+- See respository description and author
+- See last 5 issues
+- Shortcut links to github
 
 ## Getting Started
 
@@ -48,7 +53,8 @@ $ npm start
 - [React](https://github.com/facebook/react)
 - [React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
 - [Styled Components](https://github.com/styled-components/styled-components)
-- [Reactotron](https://github.com/infinitered/reactotron)
+- [Axios](https://github.com/axios/axios)
+- [PropTypes](https://github.com/facebook/prop-types)
 - [ESLint](https://github.com/eslint/eslint)
 
 ## License

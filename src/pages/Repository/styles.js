@@ -40,6 +40,69 @@ export const Owner = styled.div`
         color: #227093;
         font-size: 14px;
         text-decoration: none;
-        margin-top: 10px;
+        margin: 10px 0;
+    }
+`;
+
+export const IssueList = styled.ul`
+    padding-top: 30px;
+    padding: 15px 10px;
+    border-top: 1px solid #eee;
+    list-style: none;
+
+    p.no-issues {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    li {
+        display: flex;
+        padding: 15px 10px;
+        border: 1px solid #eee;
+        border-radius: 4px;
+    }
+
+    li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    img {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        border: 2px solid #eee;
+    }
+
+    div {
+        flex: 1;
+        margin-left: 15px;
+
+        strong {
+            font-size: 16px;
+
+            a {
+                text-decoration: none;
+                color: #333;
+
+                &:hover {
+                    color: #227093
+                }
+            }
+        }
+
+        p {
+            margin-top: 5px;
+            font-size: 12px;
+            color: #999;
+        }
+    }
+    a {
+        color: #227093;
+        font-size: 14px;
+        text-decoration: none;
     }
 `;

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import api from '../../services/api'
 
 import Container from '../../components/Container'
-import { Loading, Owner } from './styles'
+import { Loading, Owner, IssueList } from './styles'
 
 export default function Repository({ match }) {
   const [repository, setRepository] = useState({})
@@ -45,6 +45,21 @@ export default function Repository({ match }) {
       <p>{repository.description}</p>
       <a rel="noopener noreferrer" target='_blank' href={`https://github.com/${repoName}`}>Go to Github</a>
     </Owner>
+    <IssueList>
+      <h2>Open Issues</h2>
+      {issues.length ? issues.map(issue => (
+        <li key={String(issue.id)}>
+          <img src={issue.user.avatar_url} alt={issue.user.login} />
+          <div>
+            <strong>
+              <a href={issue.html_url}>{issue.title}</a>
+            </strong>
+            <p>{issue.user.login}</p>
+          </div>
+        </li>
+      )) : <p className="no-issues">There are no issues</p>}
+      <a rel="noopener noreferrer" target='_blank' href={`https://github.com/${repoName}/issues`}>See more</a>
+    </IssueList>
   </Container>
   );
 }
