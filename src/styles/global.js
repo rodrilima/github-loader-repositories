@@ -11,7 +11,7 @@ export default createGlobalStyle`
         min-height: 100%;
     }
     body {
-        background: #7951c1;
+        background: #227093;
         -webkit-font-smoothing: antialiased !important;
     }
     body, input, button {
