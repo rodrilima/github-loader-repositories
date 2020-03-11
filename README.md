@@ -10,6 +10,13 @@
 
 [Click here](https://rodrilima.github.io/github-loader-repositories/) to see the demo page.
 
+### How it works
+
+- Enter the user name followed by the repository name: {username}/{repo-name}
+- Click the "+" button
+- Click on the repository to see more information
+- Click on remove to remove a repository from the list
+
 ## About this Project
 
 React Project that loads github repositories using the Github API .
