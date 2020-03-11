@@ -6,6 +6,10 @@
 
 ![repository](https://raw.githubusercontent.com/rodrilima/github-loader-repositories/master/images/repository.png)
 
+## Demo
+
+[Click here](https://rodrilima.github.io/github-loader-repositories/) to see the demo page.
+
 ## About this Project
 
 React Project that loads github repositories using the Github API .

@@ -75,7 +75,7 @@ export const List = styled.ul`
     }
 
     .remove-btn {
-        color: #227093;
+        color: #c0392b;
         cursor: pointer;
     }
 `;
