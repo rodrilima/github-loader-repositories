@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/github-loader-repositories/static/js/main.8bb6c94f.chunk.js",
-    "main.js.map": "/github-loader-repositories/static/js/main.8bb6c94f.chunk.js.map",
+    "main.js": "/github-loader-repositories/static/js/main.c18a2359.chunk.js",
+    "main.js.map": "/github-loader-repositories/static/js/main.c18a2359.chunk.js.map",
     "runtime-main.js": "/github-loader-repositories/static/js/runtime-main.bbdb526f.js",
     "runtime-main.js.map": "/github-loader-repositories/static/js/runtime-main.bbdb526f.js.map",
     "static/js/2.f7560923.chunk.js": "/github-loader-repositories/static/js/2.f7560923.chunk.js",
     "static/js/2.f7560923.chunk.js.map": "/github-loader-repositories/static/js/2.f7560923.chunk.js.map",
     "index.html": "/github-loader-repositories/index.html",
-    "precache-manifest.25b568a4b34313fd6a05cfbc9f43697c.js": "/github-loader-repositories/precache-manifest.25b568a4b34313fd6a05cfbc9f43697c.js",
+    "precache-manifest.8648a9f90b7bc921307caafde96c7bb5.js": "/github-loader-repositories/precache-manifest.8648a9f90b7bc921307caafde96c7bb5.js",
     "service-worker.js": "/github-loader-repositories/service-worker.js",
     "static/js/2.f7560923.chunk.js.LICENSE.txt": "/github-loader-repositories/static/js/2.f7560923.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bbdb526f.js",
     "static/js/2.f7560923.chunk.js",
-    "static/js/main.8bb6c94f.chunk.js"
+    "static/js/main.c18a2359.chunk.js"
   ]
 }
